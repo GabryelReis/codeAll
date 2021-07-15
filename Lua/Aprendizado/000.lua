@@ -14,3 +14,11 @@ print(0123456789)
 --DÚVIDA: Porque o zero não foi imprimido na tela?
 
 print("0123456789")
+
+print("Opa! " .. 123 .. " " .. 5+5)
+
+--[[ 
+
+Comentário de várias linhas (coisa feia, irmão!)
+
+]]--
