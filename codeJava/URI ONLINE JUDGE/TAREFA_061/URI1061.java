@@ -48,9 +48,17 @@ public class URI1061{
 				
 				segundos = Z1 + Z2 + (Y1 * 60 + Y2 * 60) + (X1 * 3600 + X2 * 3600) + ((W2 - W1) * 86400);
 						
-				//DIAS = segundos / 86400;
+				DIAS = segundos / 86400;
+				HORAS = DIAS / 3600;
+				MINS = HORAS / 60;
+				SEGS = MINS % 60;
 				
-				System.out.printf("SEGUNDOS TOTAL: %d", segundos);
+				System.out.printf("%n%d SEGUNDOS NO TOTAL.%n", segundos);
+				
+				System.out.printf("%d dia(s)%n", DIAS);
+				System.out.printf("%d hora(s)%n", HORAS);
+				System.out.printf("%d minuto(s)%n", MINS);
+				System.out.printf("%d segundo(s)%n", SEGS);
 						
 				sc.close();
 		}
