@@ -9,7 +9,7 @@ public class URI1017{
         Scanner sc = new Scanner(System.in);
 
         double X, Y, result;
-
+        
         X = sc.nextInt();
         Y = sc.nextInt();
 
