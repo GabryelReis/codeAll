@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.util.Locale;
 
+//AVISO: Esse código ainda está incompleto!
+
 /*
  * ENTRADA:
  * 
